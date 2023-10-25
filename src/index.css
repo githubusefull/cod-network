@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@1,400;1,500&family=Macondo&family=Oswald:wght@500&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada:wght@300&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;1,300;1,400&family=Tilt+Neon&family=Urbanist:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Raleway', sans-serif;}
+body::-webkit-scrollbar {
+    display: none;
+}
+body {
+    -ms-overflow-style: none;
+     scrollbar-width: none;
+}
+
+.cod {
+    font-size: 25px;
+    font-weight: 900;
+    font-style: italic;
+    color: #F99A1A;
+}
+.network {
+    color: black;
+    font-size: 25px;
+    font-weight: 900;
+    font-style: italic;
+}
+.btn {
+    background-color: #F99A1A
+}
+
+li:hover {
+    color: #F99A1A;
+}
+.menu-bg {
+    background-color: #F99A1A;   
+}
