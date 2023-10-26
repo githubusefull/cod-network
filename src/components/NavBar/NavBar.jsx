@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import  {Link}  from "react-router-dom"; 
-import saudi from './saudi.png';
-import britich from './britich.png';
+import saudi from '../saudi.png';
+import britich from '../britich.png';
 import {FaBars, FaTimes} from 'react-icons/fa';
 
 
@@ -135,7 +135,7 @@ function NavBar() {
         <li className="inline-flex items-center cursor-pointer">
           <p onClick={handleServices}>Services</p>
           <div className={services ? 
-        'md:hidden mt-10 absolute top-[100px] right-0 left-0  justify-center w-full h-screen ease-in duration-300 bg-orange'
+        'md:hidden mt-10 absolute top-[100px] right-0 left-0  justify-center w-full h-screen ease-in duration-300 bg-orange text-black'
         :
         'md:hidden absolute top-[100px] right-0 left-[-100%] flex justify-center items-center w-full h-screen  ease-in duration-300' 
         }>

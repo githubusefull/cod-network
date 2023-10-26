@@ -2,7 +2,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 body {
     font-family: 'Raleway', sans-serif;}
 body::-webkit-scrollbar {
@@ -25,6 +29,18 @@ body {
     font-weight: 900;
     font-style: italic;
 }
+.cod-footer {
+    font-size: 25px;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+}
+.network-footer {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    font-style: italic;
+}
 .btn {
     background-color: #F99A1A
 }
@@ -35,3 +51,16 @@ li:hover {
 .menu-bg {
     background-color: #F99A1A;   
 }
+@layer components{
+    .container {
+        @apply  w-[1440px] px-5 mx-auto
+    }}
+
+@media only screen and (max-width: 1024px){
+    .container {
+        @apply w-full;
+    }
+    section {
+        @apply py-[35px];
+    }
+    }
