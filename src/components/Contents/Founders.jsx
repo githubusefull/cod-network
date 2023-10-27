@@ -32,7 +32,7 @@ const Founders = () => {
   <div className="mt-8 m-1 inline-flex">
   <p className='text-black  text-center font-[700]'>{name}</p>
   </div>
-  <div className="mt-2 m-1 inline-flex">
+  <div className="mt-2 m-1">
   <p className='text-orange  text-center font-[800]'>{t}</p>
   </div>
   

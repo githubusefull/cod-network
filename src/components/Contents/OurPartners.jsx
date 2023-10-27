@@ -19,12 +19,12 @@ const OurPartners = () => {
          Our Partners
           </span>
           </div> 
-           <div className='w-full grid grid-cols-1 cursor-pointer sm:grid-cols-5  gap-4 text-center py-8 px-12 sm:px-0 my-4'>
+           <div className='w-full grid grid-cols-2 cursor-pointer sm:grid-cols-5  gap-4 text-center py-8 px-12 sm:px-0 my-4'>
   {skills.map(({id, src, }) => (
    <div key={id}
-   className={`shadow-md hover:scale-105  font-[200] m-3 duration-500 rounded-lg p-4`}>
+   className={`hover:scale-105  font-[200] m-3 duration-500 rounded-lg p-4`}>
 
-  <img src={src} alt='' className='w-17 h-15'/>
+  <img src={src} alt='' className='h-7'/>
  
   
   

@@ -22,8 +22,11 @@ const OurservicesCard = () => {
 
   <img src={src} alt='' className='w-17 h-15 p-1 m-2'/>
   <div className="mt-8 m-1 inline-flex">
-  <p className='text-black  text-center font-[700]'>{title}</p>
+  <p className='text-black hidden md:block text-center font-[700]'>{title}</p>
+  <p className='text-black md:hidden text-[12px]  mt-1 text-center font-[700]'>{title}</p>
+
   <BsArrowRight fontSize={30}  className='hidden md:block text-orange  ml-20'/>
+
   <BsArrowRight fontSize={30}  className='md:hidden text-orange ml-1'/>
 
   </div>

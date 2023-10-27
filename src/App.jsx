@@ -11,6 +11,8 @@ import HowitWorks from './components/Contents/HowitWorks'
 import OurLocation from './components/Contents/OurLocation'
 import Founders from './components/Contents/Founders'
 import OurPartners from './components/Contents/OurPartners'
+import AsSoonAs from './components/Contents/AsSoonAs'
+import Kk from './components/Contents/Kk'
 function App() {
 
   return (
@@ -25,6 +27,8 @@ function App() {
       <OurLocation/>
       <Founders/>
       <OurPartners/>
+      <AsSoonAs/>
+      <Kk/>
       <Ready />
       <Footer />
     </div>
