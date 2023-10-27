@@ -100,8 +100,8 @@ const Footer = () => {
   return (
     <div>
       <div className="bg-footer-bg">
-        <div className="bg-white  h-full mx-20 font-[600] rounded-b-lg">
-      <div className="flex justify-center text-center p-8  font-[500] text-black">
+        <div className="bg-white  h-full mx-20  font-[600] rounded-b-lg">
+      <div className="flex justify-center text-center p-8   font-[500] text-black">
         </div>
       </div>
       

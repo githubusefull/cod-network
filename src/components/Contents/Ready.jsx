@@ -14,10 +14,8 @@ const Ready = () => {
             </p>
 
             <div className="mt-8 justify-center flex">
-              <button className="h-[50px]  px-6 btn rounded-[50px] shadow-md  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300 ">
-                <span className="text-white text-[15px] px-8  font-[700]">
-                  Get Started
-                </span>
+              <button className="h-[50px] text-white text-[15px] px-8  font-[700] btn rounded-[50px] shadow-md  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300 ">
+            Get Started
               </button>
             </div>
           </div>

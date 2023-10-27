@@ -99,8 +99,8 @@ function NavBar() {
             </div>
           </li>
           <li className="lg:mr-4">
-              <button className="ml-4 h-[40px] px-6 btn rounded-[50px] shadow-md  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300 ">
-                <span className='text-white text-[15px] px-8'>Get Started</span>
+              <button className="ml-4 h-[40px] text-white text-[15px] px-10  btn rounded-[50px] shadow-md  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300 ">
+                Get Started
               </button>
           </li>
         </ul> 
