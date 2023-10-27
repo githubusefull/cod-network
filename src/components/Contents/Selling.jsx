@@ -19,14 +19,14 @@ const Selling = () => {
   return (
   
           
-<div className='w-full grid grid-cols-2 sm:grid-cols-2  gap-2 text-center py-8  sm:px-0 my-4'>
+<div className='w-full grid grid-cols-1 sm:grid-cols-2  gap-2 text-center py-8  sm:px-0 my-4'>
   {join.map(({id, src, btn, title, style}) => (
    <div key={id}
-   className={` hover:scale-105 duration-500 py-2 rounded-lg  ${style}`}>
+   className={` hover:scale-105 duration-500  rounded-lg p-10 ${style}`}>
 
-  <img src={src} className='w-[305px] m-3 mx-auto p-10'/>
-   <p className='px-10 fon mx-4 text-gray-500 text-[15px]  font-[700]'>{title}</p>
-   <div className="mt-8 justify-center flex">
+  <img src={src} className='w-[250px] m-3 mx-auto'/>
+   <p className='p-10  text-gray-500 text-[15px] mt-4 font-[600]'>{title}</p>
+   <div className="mt-4 justify-center flex">
               <button className="h-[50px] text-white text-[15px] px-8 font-[700] btn rounded-[50px] shadow-md  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300 ">
             {btn}
               </button>

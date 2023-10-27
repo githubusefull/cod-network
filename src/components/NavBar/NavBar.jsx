@@ -17,7 +17,7 @@ function NavBar() {
         setServices(!services)
    }
   return (
-    <header className="flex justify-between items-center w-full h-20 px-4 top-0 left-0 z-10 fixed">
+    <header className="flex justify-between items-center w-full h-20 px-4 top-0 left-0 z-10 bg-white fixed">
       <nav className="max-w-[1366px] mx-auto h-[100px] flex justify-between items-center p-4">
       <div className="mr-4 mt-2">
           <Link to="/">
@@ -108,7 +108,7 @@ function NavBar() {
       <div>
         <div className='flex md:hidden'>
       
-          <div onClick={handleSmall} className='text-black font-bold mt-2 mr-8'>
+          <div onClick={handleSmall} className='text-gray-600 font-bold mt-2 mr-8'>
 
           {menuIcon ?
         (<FaTimes size={30} /> )
@@ -117,14 +117,14 @@ function NavBar() {
         }
          </div>
          <div className={menuIcon ? 
-        'md:hidden absolute top-[100px] right-0 left-0  justify-center w-full h-screen ease-in bg-white duration-300'
+        'md:hidden absolute top-[90px]  right-0 left-0  justify-center w-full h-screen ease-in bg-white duration-300'
         :
-        'md:hidden absolute top-[100px] right-0 left-[-100%] flex justify-center items-center w-full h-screen  ease-in duration-300' 
+        'md:hidden absolute top-[100px]  right-0 left-[-100%] flex justify-center items-center w-full h-screen  ease-in duration-300' 
         }>
          
      <div className='w-full text-center'>
      <ul className="font-[800] text-[20px] text-black">
-          <li className="mt-2" onClick={handleSmall}>
+          <li className="mt-5" onClick={handleSmall}>
             <Link to="/">Home</Link>
           </li>
           <li className="mt-5" onClick={handleSmall}>
