@@ -1,7 +1,7 @@
 const Ready = () => {
   return (
-    <div className="mx-20">
-      <div className="bg-white p-10 h-full  mt-10 font-[600] rounded-t-lg ">
+    <div className="mx-0">
+      <div className="bg-white p-10 h-full  font-[600] rounded-t-lg ">
         <div className="flex justify-center text-center p-8 font-[500] text-black">
           <div className="text-cente">
             <span className="font-[800] text-center text-4xl">

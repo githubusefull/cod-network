@@ -2,7 +2,7 @@
 const Joinus = () => {
    
   return (
-    <div className="mx-20">
+    <div className="mx-5">
       <div className="bg-white p-10 h-full  mt-10 font-[600] rounded-t-lg ">
         <div className="flex justify-center text-center  font-[500] text-black">
           <div className="text-cente">

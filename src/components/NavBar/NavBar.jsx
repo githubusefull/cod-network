@@ -117,7 +117,7 @@ function NavBar() {
         }
          </div>
          <div className={menuIcon ? 
-        'md:hidden absolute top-[90px]  right-0 left-0  justify-center w-full h-screen ease-in bg-white duration-300'
+        'md:hidden absolute top-[79px]  right-0 left-0  justify-center w-full h-screen ease-in bg-white duration-300'
         :
         'md:hidden absolute top-[100px]  right-0 left-[-100%] flex justify-center items-center w-full h-screen  ease-in duration-300' 
         }>
@@ -135,11 +135,11 @@ function NavBar() {
         <li className="inline-flex items-center cursor-pointer">
           <p onClick={handleServices}>Services</p>
           <div className={services ? 
-        'md:hidden mt-10 absolute top-[100px] right-0 left-0  justify-center w-full h-screen ease-in duration-300 bg-orange text-black'
+        'md:hidden absolute top-[155px] right-0 left-0  justify-center w-full h-screen ease-in duration-300 bg-orange text-black'
         :
         'md:hidden absolute top-[100px] right-0 left-[-100%] flex justify-center items-center w-full h-screen  ease-in duration-300' 
         }>
-          <div className='w-full text-center'>
+          <div className='w-full text-start ml-20'>
      <ul className="font-[800] text-1xl text-white">
           <li className="mt-2" onClick={handleSmall}>
             <Link to="/sourcing">- Sourcing</Link>
