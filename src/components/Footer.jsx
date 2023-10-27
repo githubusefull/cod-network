@@ -98,7 +98,15 @@ const Footer = () => {
    ]
   const year = new Date().getFullYear();
   return (
-    <footer className="pb-6 pt-24 bg-footer-bg">
+    <div>
+      <div className="bg-footer-bg">
+        <div className="bg-white  h-full mx-20 font-[600] rounded-b-lg">
+      <div className="flex justify-center text-center p-8  font-[500] text-black">
+        </div>
+      </div>
+      
+        </div>
+    <footer className=" bg-footer-bg pt-10">
       <div className="bg-footer-bg container">
         <div className="flex justify-between flex-col md:flex-row flex-wrap p-8 gap-[30px]">
           <div>
@@ -180,6 +188,8 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+    </div>
+   
   );
 }
 
