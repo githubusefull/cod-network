@@ -13,3 +13,10 @@ footer {
   -webkit-text-decoration-color: #F99A1A; /* Safari */  
   text-decoration-color: #F99A1A ;
 }
+
+.outline {
+    outline-style: solid;
+    outline-color: #F99A1A;
+    outline-width: 1px;
+
+}

@@ -5,6 +5,12 @@ import Content from './components/Routes/Content'
 import Ready from './components/Contents/Ready'
 import Joinus from './components/Contents/Joinus'
 import Selling from './components/Contents/Selling'
+import OurServices from './components/Contents/OurServices'
+import OurservicesCard from './components/Contents/OurservicesCard'
+import HowitWorks from './components/Contents/HowitWorks'
+import OurLocation from './components/Contents/OurLocation'
+import Founders from './components/Contents/Founders'
+import OurPartners from './components/Contents/OurPartners'
 function App() {
 
   return (
@@ -13,6 +19,12 @@ function App() {
       <Content />
       <Joinus />
       <Selling/>
+      <OurServices/>
+      <OurservicesCard/>
+      <HowitWorks/>
+      <OurLocation/>
+      <Founders/>
+      <OurPartners/>
       <Ready />
       <Footer />
     </div>

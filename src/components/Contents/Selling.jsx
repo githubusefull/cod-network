@@ -18,7 +18,7 @@ const Selling = () => {
      ]
   return (
   
-          
+    <div>    
 <div className='w-full grid grid-cols-1 sm:grid-cols-2  gap-2 text-center py-8  sm:px-0 my-4'>
   {join.map(({id, src, btn, title, style}) => (
    <div key={id}
@@ -34,7 +34,10 @@ const Selling = () => {
 </div> 
   ))}
 </div> 
-
+<div className="mt-10 justify-center flex">
+      <p className="text-[17px] font-[700]">Want to get a more informations? <span className="text-orange">Contact us.</span></p>
+          </div>
+</div>  
   )
 }
 

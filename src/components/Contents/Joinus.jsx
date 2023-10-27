@@ -15,6 +15,7 @@ const Joinus = () => {
             </p>
       </div>
         </div>
+       
       </div>
     </div>
   );
