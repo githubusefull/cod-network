@@ -3,7 +3,7 @@ import  {Link}  from "react-router-dom";
 import saudi from '../saudi.png';
 import britich from '../britich.png';
 import {FaBars, FaTimes} from 'react-icons/fa';
-
+import jumla from '../NavBar/E-JUMLA.png' 
 
 
 function NavBar() {
@@ -21,8 +21,7 @@ function NavBar() {
       <nav className="max-w-[1366px] mx-auto h-[100px] flex justify-between items-center p-4">
       <div className="mr-4 mt-2">
           <Link to="/">
-            <span className="cod">COD</span>
-            <span className="network">Network</span>
+            <img src={jumla} alt='' className='h-12'/>
           </Link>
         </div>
         <ul className="hidden font-[800] text-1xl text-black lg:text-[16px] md:flex mt-3">
@@ -99,7 +98,7 @@ function NavBar() {
             </div>
           </li>
           <li className="lg:mr-4">
-              <button className="ml-4 h-[40px] text-white text-[15px] px-10  btn rounded-[50px] shadow-md  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300 ">
+              <button className="ml-4  h-[40px] text-white text-[15px] px-10  btn rounded-[50px] shadow-md  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300 ">
                 Get Started
               </button>
           </li>

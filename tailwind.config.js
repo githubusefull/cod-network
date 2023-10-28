@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'orange': '#F99A1A',
+        'orange': '#EC5A31 ',
         'footer-bg':'#17161B'
       }
     },

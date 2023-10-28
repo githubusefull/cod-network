@@ -4,6 +4,7 @@ import {BsYoutube} from "react-icons/bs";
 import {AiOutlineTwitter} from 'react-icons/ai';
 import {BsFacebook} from 'react-icons/bs';
 import {AiOutlineInstagram} from 'react-icons/ai';
+import jumla from './jumla2.png'
 const Footer = () => {
 
      
@@ -85,7 +86,7 @@ const Footer = () => {
   const navLink4 = [
     {
       path: "/cod-network-academy",
-      display: "COD Network Academy",
+      display: "E-JUMLA",
     },
     {
       path: "/help-center",
@@ -111,8 +112,7 @@ const Footer = () => {
         <div className="flex justify-between flex-col md:flex-row flex-wrap p-8 gap-[30px]">
           <div>
             <Link to="/">
-              <span className="cod-footer">COD</span>
-              <span className="network-footer">Network</span>
+              <img src={jumla} className="footer-logo" alt="" />
             </Link>
             <p className="text-[15px] leading-7 font-[500] text-white mt-4"> 
             We Enable Everyone to Start,Grow<br></br>  and Scale E-commerce Business in<br></br>  the Middle East, Africa and Beyond.

@@ -10,13 +10,16 @@ footer {
 }
 .growandscale {
   text-decoration: underline;
-  -webkit-text-decoration-color: #F99A1A; /* Safari */  
-  text-decoration-color: #F99A1A ;
+  -webkit-text-decoration-color: #EC5A31 ; /* Safari */  
+  text-decoration-color: #EC5A31  ;
 }
 
 .outline {
     outline-style: solid;
-    outline-color: #F99A1A;
+    outline-color: #EC5A31 ;
     outline-width: 1px;
 
+}
+.footer-logo {
+  width: 123px;
 }
