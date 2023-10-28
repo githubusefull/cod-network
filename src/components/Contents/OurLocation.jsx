@@ -11,8 +11,8 @@ const OurLocation = () => {
           </span>
           </div>
           <div>
-          <p className=' text-black text-[16px] p-5 font-[600]'>Our growing network of services allows for faster delivery and shorter transit times</p>
-   <p className='text-gray-500 text-[15px] px-5 font-[600]'>With COD NETWORK Growing Warehouse Network and seamless integrations, we help you reach your customers quickly, effectively, and affordably. Expand your business and distribute your inventory in strategically located warehouses spanning four continents and more than 9 countries.</p>
+          <p className=' text-black text-[16px] p-5 font-[600]'>Nos services en pleine croissance permettent une livraison plus rapide et des délais de transit plus courts</p>
+   <p className='text-gray-500 text-[15px] px-5 font-[600]'>With E-Jumla Maroc Growing Warehouse Network and seamless integrations, we help you reach your customers quickly, effectively, and affordably. Expand your business and distribute your inventory in strategically located warehouses spanning four continents and more than 9 countries.</p>
   </div>
   <div className="justify-center mt-1 text-1xl font-[500] hover:scale-105 duration-500  text-orange cursor-pointer p-10">
           <span className="font-[800] text-center ">
