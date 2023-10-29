@@ -28,6 +28,11 @@ function NavBar() {
           <li className="ml-8 lg:mr-8 mt-2">
             <Link to="/">Home</Link>
           </li>
+          {/**/}
+        
+        
+    
+          {/**/}
           <li className="ml-4 lg:mr-8 mt-2">
             <Link to="/About">About</Link>
           </li>
