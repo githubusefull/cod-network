@@ -115,8 +115,7 @@ const Footer = () => {
               <img src={jumla} className="footer-logo" alt="" />
             </Link>
             <p className="text-[15px] leading-7 font-[500] text-white mt-4"> 
-            We Enable Everyone to Start,Grow<br></br>  and Scale E-commerce Business in<br></br>  the Middle East, Africa and Beyond.
-              
+            Nous permettons à tout le monde de démarrer et <br></br>de développer des entreprises de commerce<br></br> électronique au Moyen-Orient, en Afrique et au-delà.              
             </p>
             <div className="flex items-center gap-3 mt-3">
   
@@ -131,7 +130,7 @@ const Footer = () => {
               ))}
             </div>
             <p className="text-[12px] leading-7 font-[500] text-gray-400 mt-1"> 
-               © {year} COD.NETWORK
+               © {year} E-JUMLA
             </p>
           </div>
           <div>

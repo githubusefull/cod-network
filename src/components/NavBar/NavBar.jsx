@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import  {Link}  from "react-router-dom"; 
-import saudi from '../saudi.png';
-import britich from '../britich.png';
+import saudi from '../FlagS.png';
+import franch from '../FlagF.png';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import jumla from '../NavBar/E-JUMLA.png' 
 
@@ -26,7 +26,7 @@ function NavBar() {
         </div>
         <ul className="hidden font-[800] text-1xl text-black lg:text-[16px] md:flex mt-3">
           <li className="ml-8 lg:mr-8 mt-2">
-            <Link to="/">Home</Link>
+            <Link to="/">Accueil</Link>
           </li>
           {/**/}
         
@@ -34,12 +34,12 @@ function NavBar() {
     
           {/**/}
           <li className="ml-4 lg:mr-8 mt-2">
-            <Link to="/About">About</Link>
+            <Link to="/About">À propos</Link>
           </li>
           <li className="ml-4 lg:mr-8 mt-2">
       <div className="group inline-block relative">
         <a className="rounded inline-flex items-center">
-          Services
+        Les services
           <svg
             className="fill-current h-4 w-4"
             xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +79,7 @@ function NavBar() {
       </div>
           </li>
           <li className="lg:mr-8 mt-2 ">
-            <Link to="/How-it-works">How it works?</Link>
+            <Link to="/How-it-works">Nos travaux</Link>
           </li>
           <li className="ml-4 lg:mr-8 mt-2">
             <Link to="/FAQs">FAQs</Link>
@@ -87,7 +87,7 @@ function NavBar() {
           <li className="ml-4 lg:mr-2">
             <div className='cursor-pointer mt-2'>
               <img
-                className="rounded-[100%] w-[25px] h-[25px] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300"
+                className="rounded-[100%] w-[28px] h-[28px]  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300"
                 src={saudi}
                 alt="Arabic"
               />
@@ -96,15 +96,15 @@ function NavBar() {
           <li className="lg:mr-4">
             <div className='cursor-pointer mt-2'>
               <img
-                className="rounded-[100%] w-[25px] h-[25px] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300"
-                src={britich}
+                className="rounded-[100%] w-[28px] h-[28px] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300"
+                src={franch}
                 alt="English"
               />
             </div>
           </li>
           <li className="lg:mr-4">
               <button className="ml-4  h-[40px] text-white text-[15px] px-10  btn rounded-[50px] shadow-md  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300 ">
-                Get Started
+              Démarrer
               </button>
           </li>
         </ul> 
@@ -194,7 +194,7 @@ function NavBar() {
             <div className='cursor-pointer inline-block'>
               <img
                 className="rounded-[100%] w-[25px] h-[25px] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300"
-                src={britich}
+                src={franch}
                 alt="English"
               />
             </div>

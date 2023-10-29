@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 const Selling = () => {
   {/*
@@ -35,7 +36,8 @@ const Selling = () => {
 </div> 
  */} 
 <div className="mt-10 justify-center flex">
-      <p className="text-[17px] font-[700]">Want to get a more informations? <span className="text-orange">Contact us.</span></p>
+
+      <p className="text-[17px] font-[700]">Besoin d'aide? <span className="text-orange">Contactez-nous</span></p>
           </div>
 </div>  
   )
