@@ -40,13 +40,13 @@ const OurservicesCard = () => {
    
     <div className="mt-8 justify-center flex">
     <button className="h-[50px]   btn rounded-[50px] shadow-md text-white text-[15px] px-8  font-[700]  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300 ">
-              Our Services
+    Nos Services
               </button>
     </div>
       
      
       <div className="mt-10 justify-center flex">
-      <p className="text-[16px] font-[700]">Want to join us? <span className="text-orange">Get Started</span></p>
+      <p className="text-[16px] font-[700]">Tu peux nous rejoindre? <span className="text-orange">Démarrer</span></p>
           </div>
       </div>
       

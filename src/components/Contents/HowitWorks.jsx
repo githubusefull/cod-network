@@ -5,7 +5,7 @@ const HowitWorks = () => {
         <div className="mt-8 justify-center flex">
         <div className="justify-center mt-10 text-4xl font-[500] text-black">
           <span className="font-[800] p-8 text-center">
-           How it works?
+          Comment ça fonctionne?
           </span>
           </div>
     </div>

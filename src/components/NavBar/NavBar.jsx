@@ -82,7 +82,7 @@ function NavBar() {
             <Link to="/How-it-works">Nos travaux</Link>
           </li>
           <li className="ml-4 lg:mr-8 mt-2">
-            <Link to="/FAQs">FAQs</Link>
+            <Link to="/FAQs">Aide</Link>
           </li>
           <li className="ml-4 lg:mr-2">
             <div className='cursor-pointer mt-2'>

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 const Joinus = () => {
    
@@ -7,11 +8,12 @@ const Joinus = () => {
         <div className="flex justify-center text-center  font-[500] text-black">
           <div className="text-cente">
             <span className="font-[800] text-center text-4xl">
-              Join us today!
+            Rejoignez-nous aujourd'hui !
             </span>
             <p className="text-center text-1xl text-gray-800 mt-5 font-[600]">
-              You can join us today by choosing the model that suits you.
-              <br></br> We offer both Seller and Affiliate models.
+            E-Jumla Maroc assure le transport de marchandises<br></br>
+             de la Chine vers le Maroc et vers les pays du Moyen-Orient, <br></br>
+             y compris l'Arabie Saoudite, les Émirats Arabes Unis, le Qatar et le Koweït. 
             </p>
       </div>
         </div>
