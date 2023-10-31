@@ -6,20 +6,11 @@ const OurServices = () => {
       <div className="bg-white p-10 h-full  font-[600] rounded-t-lg ">
         <div className="flex justify-center text-center p-6 font-[500] text-black">
           <div className="text-cente">
-            <p className="text-[14px] font-[700] mb-4">NOS SERVICES</p>
-            <span className="font-[800] text-center text-4xl">
-            Laissez E-Jumla Maroc se charger du reste du gros du travail !
-               </span>
-            {/*   
-            <p className="text-center text-1xl text-gray-800 mt-5 font-[600]">
-              An all-in-one digital platform that allows full visibility of the
-              entire e-commerce selling cycle from Sourcing,<br></br>{" "}
-              e-fulfillment, order confirmation, delivery, Payment processing,{" "}
-              <br></br>Collection and merchants digital wallets.
-            </p>
-            */}
-            <p className="text-center text-1xl text-gray-800 mt-5 font-[600]">
-            E-Jumla Maroc facilite l'acquisition de produits et de marchandises en Chine pour les entreprises au Maroc.<br></br> Nos équipes de sourcing travaillent pour trouver les produits de haute qualité dont vous avez besoin.
+            <p className="text-[35px] text-orange font-[800] mb-4">كيف تتم خدماتنا ؟</p>
+           
+            
+            <p className="text-center text-2xl text-gray-800 mt-5 font-[600]">
+              بدءا من التأكيد حتى التوصيل , كل العملية تتم في نفس اليوم مما يتيح لك الوقت للتوسع أكثر
             </p>
           </div>
         </div>

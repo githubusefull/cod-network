@@ -4,7 +4,7 @@ import Footer from './components/Footer/Footer'
 import Content from './components/Routes/Content'
 import Ready from './components/Contents/Ready'
 import Joinus from './components/Contents/Joinus'
-import Selling from './components/Contents/Selling'
+//import Selling from './components/Contents/Selling'
 import OurServices from './components/Contents/OurServices'
 import OurservicesCard from './components/Contents/OurservicesCard'
 import HowitWorks from './components/Contents/HowitWorks'
@@ -13,14 +13,15 @@ import Founders from './components/Contents/Founders'
 import OurPartners from './components/Contents/OurPartners'
 import AsSoonAs from './components/Contents/AsSoonAs'
 import Kk from './components/Contents/Kk'
+import Content2 from './components/Routes/Content2'
 function App() {
 
   return (
     <div className="App">
       <NavBar />
       <Content />
+      <Content2/>
       <Joinus />
-      <Selling/>
       <OurServices/>
       <OurservicesCard/>
       <HowitWorks/>

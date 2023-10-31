@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import  {Link}  from "react-router-dom"; 
 import saudi from '../FlagS.png';
-import franch from '../FlagF.png';
+import britich from '../britich.png';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import jumla from '../NavBar/E-JUMLA.png' 
 
@@ -19,23 +19,41 @@ function NavBar() {
   return (
     <header className="flex justify-between items-center w-full h-20 px-4 top-0 left-0 z-10 bg-white fixed">
       <nav className="max-w-[1366px] mx-auto h-[100px] flex justify-between items-center p-4">
-      <div className="mr-4 mt-2">
-          <Link to="/">
-            <img src={jumla} alt='' className='h-12'/>
-          </Link>
-        </div>
-        <ul className="hidden font-[800] text-1xl text-black lg:text-[16px] md:flex mt-3">
-          <li className="ml-8 lg:mr-8 mt-2">
-            <Link to="/">Accueil</Link>
-          </li>
-          {/**/}
-        
-        
     
-          {/**/}
-          <li className="ml-4 lg:mr-8 mt-2">
-            <Link to="/About">À propos</Link>
+      
+        <ul className="hidden font-[800] text-1xl text-black lg:text-[16px] md:flex mt-3">
+        <li className="lg:mr-4">
+              <button className="ml-4  h-[40px] text-white text-[17px] px-10 font-[800] btn rounded-[50px] shadow-md  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300 ">
+              ابدأ الآن
+              </button>
           </li>
+        <li className="ml-4 lg:mr-2">
+            <div className='cursor-pointer mt-2'>
+              <img
+                className="rounded-[100%] w-[28px] h-[28px]  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300"
+                src={britich}
+                alt="Arabic"
+              />
+            </div>
+          </li>
+          <li className="lg:mr-4">
+            <div className='cursor-pointer mt-2'>
+              <img
+                className="rounded-[100%] w-[28px] h-[28px] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300"
+                src={saudi}
+                alt="English"
+              />
+            </div>
+          </li>
+         
+          <li className="ml-8 lg:mr-8 mt-2">
+            <Link to="/"  className='font-[800] text-[20px]'>كيف نعمل؟</Link>
+          </li>
+          <li className="ml-4 lg:mr-8 mt-2">
+            <Link to="/About"  className='font-[800] text-[20px]'>من نحن</Link>
+          </li>
+           {/*
+        
           <li className="ml-4 lg:mr-8 mt-2">
       <div className="group inline-block relative">
         <a className="rounded inline-flex items-center">
@@ -78,36 +96,20 @@ function NavBar() {
         </ul>
       </div>
           </li>
+           */}
           <li className="lg:mr-8 mt-2 ">
-            <Link to="/How-it-works">Nos travaux</Link>
+            <Link to="/How-it-works"  className='font-[800] text-[20px]'>الخدمات</Link>
           </li>
-          <li className="ml-4 lg:mr-8 mt-2">
-            <Link to="/FAQs">Aide</Link>
+          <li className="ml-4 lg:mr-8 mt-2 ">
+            <Link to="/FAQs" className='font-[800] text-[20px]'>الرئيسية</Link>
           </li>
-          <li className="ml-4 lg:mr-2">
-            <div className='cursor-pointer mt-2'>
-              <img
-                className="rounded-[100%] w-[28px] h-[28px]  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300"
-                src={saudi}
-                alt="Arabic"
-              />
-            </div>
-          </li>
-          <li className="lg:mr-4">
-            <div className='cursor-pointer mt-2'>
-              <img
-                className="rounded-[100%] w-[28px] h-[28px] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300"
-                src={franch}
-                alt="English"
-              />
-            </div>
-          </li>
-          <li className="lg:mr-4">
-              <button className="ml-4  h-[40px] text-white text-[15px] px-10  btn rounded-[50px] shadow-md  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300 ">
-              Démarrer
-              </button>
-          </li>
+        
         </ul> 
+        <div className="mr-4 mt-2">
+          <Link to="/">
+            <img src={jumla} alt='' className='h-12'/>
+          </Link>
+        </div>
       </nav>
       <div>
         <div className='flex md:hidden'>
@@ -194,7 +196,7 @@ function NavBar() {
             <div className='cursor-pointer inline-block'>
               <img
                 className="rounded-[100%] w-[25px] h-[25px] transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300"
-                src={franch}
+                src={britich}
                 alt="English"
               />
             </div>
