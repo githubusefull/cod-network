@@ -24,12 +24,8 @@ const PraticleBg = () => {
         "color": {
             "value": "#EC5A31"
         },
-        "shape": {
-            "type": "circle",
-            "options": {
-                "sides": 5
-            }
-        },
+       
+      
         "opacity": {
             "value": 0.8,
             "random": false,
@@ -61,7 +57,13 @@ const PraticleBg = () => {
             }
         },
        
-
+        "line_linked": {
+            "enable": true,
+            "distance": 600,
+            "color": "#EC5A31",
+            "opacity": 0.4,
+            "width": 2
+        },
 
         "move": {
             "enable": true,
