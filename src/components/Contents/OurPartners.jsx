@@ -16,7 +16,7 @@ const OurPartners = () => {
        
           <div className="justify-center text-4xl font-[500] text-center text-black">
           <span className="font-[800]">
-          Nos Partenaires
+          شُركاؤنا
           </span>
           </div> 
            <div className='w-full grid grid-cols-2 cursor-pointer sm:grid-cols-5  gap-4 text-center py-8 px-12 sm:px-0 my-4'>

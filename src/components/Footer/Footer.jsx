@@ -33,29 +33,23 @@ const Footer = () => {
   ];
   const navLink2 = [
     {
-      path: "/about",
-      display: "About us",
+      path: "/",
+      display: "الرئيسية",
+    },
+    {
+      path: "/about-us",
+      display: "من نحن ؟",
+    },
+    {
+      path: "/our-services",
+      display: "خدماتنا",
     },
     {
       path: "/how-it-work",
-      display: "How it Works?",
+      display: "كيف نعمل ؟",
     },
-    {
-      path: "/location",
-      display: "Locations",
-    },
-    {
-      path: "/contact",
-      display: "Contact us",
-    },
-    {
-      path: "/terms&conditions",
-      display: "Terms & Conditions",
-    },
-    {
-      path: "/privacy-policy",
-      display: "Privacy Policy",
-    },
+   
+   
   ];
   const navLink3 = [
     {
@@ -85,17 +79,14 @@ const Footer = () => {
   ];
   const navLink4 = [
     {
-      path: "/cod-network-academy",
-      display: "E-JUMLA",
+      path: "/phone",
+      display: "0600 00 00 83",
     },
     {
-      path: "/help-center",
-      display: "Help Center",
+      path: "/email",
+      display: "support@e-jumla.com",
     },
-    {
-      path: "/FAQ",
-      display: "FAQ",
-    },
+    
    ]
   const year = new Date().getFullYear();
   return (
@@ -114,8 +105,9 @@ const Footer = () => {
             <Link to="/">
               <img src={jumla} className="footer-logo" alt="" />
             </Link>
-            <p className="text-[15px] leading-7 font-[500] text-white mt-4"> 
-            Nous permettons à tout le monde de démarrer et <br></br>de développer des entreprises de commerce<br></br> électronique au Moyen-Orient, en Afrique et au-delà.              
+            <p className="text-[20px] leading-7 font-[500] text-white mt-4">
+              ابدأ, إنمو, تطور مع   <span className="font-[600] text-[20px] text-orange">جملة ماروك</span>  
+ 
             </p>
             <div className="flex items-center gap-3 mt-3">
   
@@ -134,15 +126,15 @@ const Footer = () => {
             </p>
           </div>
           <div>
-            <h2 className="text-[15px] leading-[30px] font-[700] mb-4 text-white">
-             ABOUT
+            <h2 className="text-[20px] leading-[30px] font-[700] mb-4 text-white">
+             القائمة
             </h2>
             <ul>
               {navLink2.map((item, index) => (
                 <li key={index} className="mb-4">
                   <Link
                     to={item.path}
-                    className="text-[15px] leading-7 font-[700] hover:text-white text-gray-400"
+                    className="text-[20px]  leading-7 font-[700] hover:text-white text-gray-400"
                   >
                     {item.display}
                   </Link>
@@ -151,8 +143,8 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="text-[15px] leading-[30px] font-[700] mb-6 text-white ">
-              SERVICES
+            <h2 className="text-[20px] leading-[30px] font-[700] mb-4 text-white ">
+              خدماتنا
             </h2>
             <ul>
               {navLink3.map((item, index) => (
@@ -168,8 +160,8 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h2 className="text-[15px] leading-[30px] font-[700] mb-6 text-white">
-            ADDITIONAL LINKS
+            <h2 className="text-[20px] leading-[30px] font-[700] mb-4 text-white">
+            تواصل معنا
             </h2>
             <ul>
               {navLink4.map((item, index) => (

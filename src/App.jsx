@@ -6,29 +6,28 @@ import Ready from './components/Contents/Ready'
 import Joinus from './components/Contents/Joinus'
 //import Selling from './components/Contents/Selling'
 import OurServices from './components/Contents/OurServices'
-import OurservicesCard from './components/Contents/OurservicesCard'
-import HowitWorks from './components/Contents/HowitWorks'
+//import OurservicesCard from './components/Contents/OurservicesCard'
+//import HowitWorks from './components/Contents/HowitWorks'
 import OurLocation from './components/Contents/OurLocation'
-import Founders from './components/Contents/Founders'
+//import Founders from './components/Contents/Founders'
 import OurPartners from './components/Contents/OurPartners'
-import AsSoonAs from './components/Contents/AsSoonAs'
+//import AsSoonAs from './components/Contents/AsSoonAs'
 import Kk from './components/Contents/Kk'
-import Content2 from './components/Routes/Content2'
+import OurServices2 from './components/Contents/Ourservices2'
 function App() {
 
   return (
     <div className="App">
       <NavBar />
       <Content />
-      <Content2/>
       <Joinus />
       <OurServices/>
-      <OurservicesCard/>
-      <HowitWorks/>
       <OurLocation/>
-      <Founders/>
+      <OurServices2/>
       <OurPartners/>
-      <AsSoonAs/>
+      {/*   
+      <Founders/>
+      <AsSoonAs/>*/}
       <Kk/>
       <Ready />
       <Footer />

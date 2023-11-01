@@ -16,9 +16,9 @@ const AsSoonAs = () => {
        <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
         <div className='mt-0'>
        
-          <div className="justify-center text-4xl font-[500] text-center text-black">
+        <div className="justify-center text-4xl font-[500] text-center text-black">
           <span className="font-[800]">
-         As Seen As
+          عُملائنا
           </span>
           </div> 
            <div className='w-full  grid grid-cols-2 cursor-pointer sm:grid-cols-5  gap-4 text-center py-8 px-12 sm:px-0 my-4'>

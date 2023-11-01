@@ -8,19 +8,18 @@ const OurLocation = () => {
 
 <div className="justify-center mt-1 text-4xl font-[500] text-black p-10">
           <span className="font-[800] text-center">
-          Nos Localisations
+          مواقعنا
           </span>
           </div>
           <div>
-          <p className=' text-black text-[16px] p-5 font-[600]'>Nos services en pleine croissance permettent une livraison plus rapide et des délais de transit plus courts</p>
-   <p className='text-gray-500 text-[15px] px-5 font-[600]'>.
-   Notre entreprise se distingue par son engagement envers l'excellence dans son domaine,<br></br> sa capacité à gérer des opérations complexes et son dévouement à la satisfaction de sa clientèle.
+          <p className=' text-black text-[20px] p-5 font-[600]'>نمكن من استعمال مستودعاتنا في العديد من الدول لتطوير وتوسيع أعمالك</p>
+   <p className='text-gray-500 text-[16px] px-5 font-[600]'>نأمن أن توفير مستودعات في معظم مدن الدولة يعني التسليم السريع والمزيد من الربح لعملائنا
    </p>
   </div>
   <div className="justify-center mt-1 text-1xl font-[500] hover:scale-105 duration-500  text-orange cursor-pointer p-10">
-          <span className="font-[800] text-center ">
-          Démarrer Maintenant
-          </span>
+  <button className="h-[40px] text-white text-[18px] font-[600] px-8  btn rounded-[50px] shadow-md  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-140  duration-300 ">
+              ابدأ خطوتك الأولى
+              </button>
           </div>
 </div> 
 

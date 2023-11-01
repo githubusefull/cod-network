@@ -1,10 +1,10 @@
 
 const Kk = () => {
     const skills = [
-        { id: 1, src: "+20K", title:'Satisfied Clients', text:'Our main goal is to provide for our clients the best services quality.', style:'shadow-orange'},
-        { id: 2, src: "+10K", title:'Daily Orders', text:'We maintain a large delivery capacity in the shortest time.', style:'shadow-orange'},
-        { id: 3, src: "+17", title:'Warehouses', text:'Our warehouses store all the goods you want to sell.', style:'shadow-orange'},
-        { id: 4, src: "+9", title:'Countries', text:'Our presence is expanding to cover more countries.', style:'shadow-orange'},
+        { id: 1, src: "+100K", title:'عميل أرض', text:'هدفنا الأساسي هو تقديم خدمات بأعلى جودة لعملائنا', style:'shadow-orange'},
+        { id: 2, src: "+1K", title:'طلبية كل يوم', text:'لدينا قدرة تسليم كبيرة ونعمل بسرعة', style:'shadow-orange'},
+        { id: 3, src: "+8", title:'مستودعات', text:'نحن نعمل من خلال مستودعاتنا الخاصة في غالبية المدن داخل البلدان التي نخدمها', style:'shadow-orange'},
+        { id: 4, src: "+3", title:'بلدان', text:'معًا: يمكننا النمو والوصول إلى المزيد من البلدان', style:'shadow-orange'},
 
      
      
@@ -26,7 +26,7 @@ const Kk = () => {
   <p className="text-5xl text-orange font-[700]">{src}</p>
  
   <div className="mt-8 m-1 inline-flex">
-  <p className='text-black  text-center font-[800]'>{title}</p>
+  <p className='text-black text-[25px]  text-center font-[800]'>{title}</p>
   </div>
   <div className="mt-2 m-1 inline-flex">
   <p className='text-black text-[15px] text-center font-[600]'>{text}</p>

@@ -1,0 +1,14 @@
+{
+  "english": {
+    "navbar1": "Home",
+    "navbar2": "Services",
+    "navbar3": "Who We Are ?",
+    "navbar4": "How We Work ?"
+  },
+  "arabic": {
+    "navbar1": "الرئيسية",
+    "navbar2": "خدمات",
+    "navbar3": "من نحن ؟",
+    "navbar4": "كيف نعمل ؟"
+  }
+}
