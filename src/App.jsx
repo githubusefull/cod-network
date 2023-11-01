@@ -14,21 +14,23 @@ import OurPartners from './components/Contents/OurPartners'
 //import AsSoonAs from './components/Contents/AsSoonAs'
 import Kk from './components/Contents/Kk'
 import OurServices2 from './components/Contents/Ourservices2'
+import PraticleBg from './components/NavBar/PraticleBg'
 function App() {
 
   return (
     <div className="App">
-      <NavBar />
-      <Content />
+        <PraticleBg />
+        <NavBar />
+        <Content />
       <Joinus />
-      <OurServices/>
-      <OurLocation/>
-      <OurServices2/>
-      <OurPartners/>
+      <OurServices />
+      <OurLocation />
+      <OurServices2 />
+      <OurPartners />
       {/*   
       <Founders/>
       <AsSoonAs/>*/}
-      <Kk/>
+      <Kk />
       <Ready />
       <Footer />
     </div>

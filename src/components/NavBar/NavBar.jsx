@@ -28,7 +28,7 @@ useEffect(() => {
    
  console.log(content.navbar1)
   return (
-    <header className="flex justify-between items-center w-full h-20 px-4 top-0 left-0 z-10  fixed">
+    <header className="flex justify-between items-center bg-white w-full h-20 px-4 top-0 left-0 z-10  fixed">
       <nav className="max-w-[1366px] mx-auto h-[100px] flex justify-between items-center p-4">
     
       

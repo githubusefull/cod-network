@@ -25,7 +25,7 @@ const Content = () => {
 
   return (
     <div>
-      <div className="bg-white w-auto h-full mx-5 mt-10  font-[600] rounded-lg p-10">
+      <div className=" w-auto h-full mx-5 mt-10  font-[600] rounded-lg p-10">
         <div className="flex justify-center text-1xl font-[500] text-black">
           <span className="font-[800] text-[30px] mt-20 text-center">
             خدماتنا

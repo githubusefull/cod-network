@@ -21,30 +21,8 @@ body {
      scrollbar-width: none;
 }
 
-.cod {
-    font-size: 25px;
-    font-weight: 900;
-    font-style: italic;
-    color: #F99A1A;
-}
-.network {
-    color: black;
-    font-size: 25px;
-    font-weight: 900;
-    font-style: italic;
-}
-.cod-footer {
-    font-size: 25px;
-    font-weight: 900;
-    font-style: italic;
-    color: white;
-}
-.network-footer {
-    color: white;
-    font-size: 25px;
-    font-weight: 900;
-    font-style: italic;
-}
+
+
 .btn {
     background-color: #EC5A31;
 }
@@ -63,8 +41,5 @@ li:hover {
 @media only screen and (max-width: 1024px){
     .container {
         @apply w-full;
-    }
-    section {
-        @apply py-[35px];
     }
     }
